@@ -1,8 +1,13 @@
-module example.com/api
+module github.com/EricGusmao/easy-todo
 
 go 1.24.1
 
 tool github.com/pressly/goose/v3/cmd/goose
+
+require (
+	github.com/jackc/pgx/v5 v5.7.1
+	github.com/joho/godotenv v1.5.1
+)
 
 require (
 	filippo.io/edwards25519 v1.1.0 // indirect
@@ -25,10 +30,8 @@ require (
 	github.com/hashicorp/golang-lru/v2 v2.0.7 // indirect
 	github.com/jackc/pgpassfile v1.0.0 // indirect
 	github.com/jackc/pgservicefile v0.0.0-20240606120523-5a60cdf6a761 // indirect
-	github.com/jackc/pgx/v5 v5.7.1 // indirect
 	github.com/jackc/puddle/v2 v2.2.2 // indirect
 	github.com/joeshaw/multierror v0.0.0-20140124173710-69b34d4ec901 // indirect
-	github.com/joho/godotenv v1.5.1 // indirect
 	github.com/jonboulle/clockwork v0.4.0 // indirect
 	github.com/klauspost/compress v1.17.7 // indirect
 	github.com/mattn/go-isatty v0.0.20 // indirect
